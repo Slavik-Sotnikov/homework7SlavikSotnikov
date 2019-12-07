@@ -1,0 +1,89 @@
+body{
+  color:whitesmoke;
+  transition:1s;
+  margin:0;
+}
+h2 {
+  margin: 0;
+}
+img{
+  position:absolute;
+  margin:0;
+  padding:0;
+  max-width:2015px;
+}
+.header-block{
+  background-image: url("../img/macbook.png");
+  max-width:100%;
+}
+.header{
+  max-width:2015px;
+  background-color:rgba(40 , 44, 51, 0.9);
+  position: relative;
+}
+.header-h-one{
+  font-size:70px;
+  text-align:center;
+}
+.header-text{
+  margin:0 auto;
+  font-size: 25px;
+  max-width:774px;
+}
+.main-color{
+  color: $main-color;
+}
+.header-flex{
+  display: inline-block;
+  width:49%;
+  text-align: center;
+  margin:0;
+  padding:30px 0;
+}
+button{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  transition:1s;
+}
+.menu-icon{
+  width:26px;
+  max-height:20px;
+  display:inherit;
+  margin-left:8px;
+}
+.menu-button:hover{
+  font-size:18px;
+}
+.line{
+  border: $border #ffffff;
+  max-width:22px;
+  margin-top:6px;
+  display:block;
+}
+h1{
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top:10%  ;
+}
+.header-section{
+  text-align:center;
+}
+.button-section{
+  display:block;
+}
+.header-button {
+  display: inline-block;
+  padding: 20px;
+  border: $border grey;
+  border-radius: 15px;
+  margin: 40px;
+  opacity: 1;
+  width: $width;
+  &.header-button:hover {
+    background-color: $main-color;
+  }
+}
